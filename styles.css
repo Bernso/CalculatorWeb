@@ -29,8 +29,8 @@ body {
         box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
     }
     50% {
-        border-color: #0056b3; /* Alternate border color */
-        box-shadow: 0 0 30px rgba(0, 86, 179, 0.7); /* Alternate box shadow */
+        border-color: #0056b3; 
+        box-shadow: 0 0 30px rgba(0, 86, 179, 0.7);
     }
     100% {
         border-color: #007bff;
