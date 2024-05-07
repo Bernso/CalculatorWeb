@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Simple Calculator</h2>
+            <div id="operatorDropdown">
+                <select id="operation">
+                    <option value="Add">Addition</option>
+                    <option value="Subtract">Subtraction</option>
+                    <option value="Multiply">Multiplication</option>
+                    <option value="Divide">Division</option>
+                    <option value="Square">Square</option>
+                    <option value="Square Root">Square Root</option>
+                </select>
+            </div>
+            <div id="numberInputs">
+                <input type="number" class="numInput" placeholder="Enter a number">
+            </div>
+            <button onclick="addInput()">Add Number Input</button>
+            <button onclick="calculate()">Calculate</button>
+            <div id="calculationResult" class="resultBox"></div>
+            <div id="answerResult" class="resultBox"></div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
